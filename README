@@ -1,0 +1,6 @@
+Fasta2Excel.pl: converting fasta file to excel format (for IDT order)
+Fasta60.pl: converting oneline format to fasta format, 60 bp per line
+ShannonEntropy.py: Calculating entropy for each residue from alignment
+fasta_into_oneline.pl: converting fasta format into online format
+ligation: calculating amount needed to be added for ligation reaction (e.g. cloning)
+titer.R: calculate TCID50
