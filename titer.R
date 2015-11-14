@@ -16,5 +16,6 @@ titer <- function(col,n1,n2,tdk){
     choose(N,n2)*(1-p2)^n2*p2^(N-n2) * choose(N,n3)*(1-p3)^n3*p3^(N-n3))   #the possibilty of the result
     pos <- which(pro==max(pro))
     dens<- s[pos] #the most probable number of virus
+    return(tdk*dens*10^((col-2)/2))
     #how to define confidence interval?
 }
